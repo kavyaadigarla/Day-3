@@ -1,0 +1,22 @@
+sno=int(input("enter no:"))
+sname=str(input("enter name:"))
+group=str(input("enter group:"))
+s1=int(input("enter social marks:"))
+s2=int(input("enter maths marks:"))
+s3=int(input("enter phy marks:"))
+total=s1+s2+s3
+avg=total/3
+if(avg>=90):
+    print("o grade")
+elif(avg>=80):
+    print("A grade")
+elif(avg>=70):
+    print("B grade")
+elif(avg>=60):
+    print("C grade")
+elif(avg>=50):
+    print("D grade")
+else:
+    print("Pass")
+    
+                
